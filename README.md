@@ -4,7 +4,7 @@
 
 ### 📝 Aufgabe:
 
-Ziel dieser Aufgabe ist es ein Programm zu schreiben, dass einen Text aus dem Internet herunterlädt und diesen mit Hilfe von Callback Methoden verändert und als String zurückgibt.
+Ziel dieser Aufgabe ist es ein Programm zu schreiben, das einen Text aus dem Internet herunterlädt und diesen mit Hilfe von Callback Methoden verändert und als String zurückgibt.
 
 Um den Text vom Server zu laden eignet sich die Methode ```FileUtils.copyURLToFile([...])``` aus der externen [Apache Commons IO ](http://commons.apache.org/proper/commons-io/javadocs/api-release/index.html?org/apache/commons/io/FileUtils.html) Bibliothek besonders gut. [Apache Commons IO ](http://commons.apache.org/proper/commons-io/javadocs/api-release/index.html?org/apache/commons/io/FileUtils.html) ist nicht teil der Java Standard Library und muss extra in das Projekt eingebunden werden. Das habe ich für euch in diesem Projekt schon gemacht. Folgt einfach meiner [Video-Anleitung](https://drive.google.com/file/d/1IpwHADmwViEGQ7Pf4BgybUYpz7WBoMe5/view?usp=sharing) zum einbinden von GitHub-Projekten in Eclipse.
 Ihr könnt aber auch gerne eine eigene Lösung zum herunterladen von Texten implementieren!
